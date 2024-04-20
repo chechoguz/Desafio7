@@ -1,0 +1,50 @@
+/* Color Palette */
+:root {
+    --white: #FFF;
+    --platinum: #E8EBE4;
+    --gray: #BEC1BB;
+    --blue-bell: #A491D2;
+    --soap: #CDC3E6;
+    --pale-lavender: #D4DCFF;
+    --dark-jungle: #1B1F21;
+    --outer-space: #444749;
+    --old-silver: #828485;
+    }
+
+/* Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-jungle);
+}
+
+.large-text {
+    font-size: 45px; /* large */
+}
+
+.text-medium {
+    font-size: 16px; /* medium */
+}
+
+.small-text {
+    font-size: 14px; /* small */
+}
+
+.x-small-text {
+    font-size: 10px; /* x-small */
+}
+
+/* Buttons */
+.button {
+    background-color: var(--blue-bell);
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--soap);
+}
+
+.button:focus {
+    outline: 2px solid var(--gray);
+}
