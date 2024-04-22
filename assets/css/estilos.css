@@ -27,7 +27,7 @@ body {
 }
 .principal {
     width: 78%;
-    height: 100vh;
+    
     background: var(--platinum);
     display: flex;
     flex-direction: column;
@@ -48,6 +48,7 @@ body {
 
 .contactos {
     width: 22%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -64,6 +65,12 @@ body {
     justify-content:space-between;
     border-bottom: 2px solid var(--platinum);
     padding: 30px;
+}
+.contacto_estado {
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    /*padding: 20px 30px;*/
 }
 
 .texto_estado {
@@ -119,7 +126,7 @@ body {
     align-items:center;
     justify-content:flex-start;
     border-bottom: 2px solid var(--platinum);
-    padding: 30px;
+    padding: 20px 30px;
 }
 
 .contacto img {
