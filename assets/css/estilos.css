@@ -48,7 +48,7 @@ body {
 
 .contactos {
     width: 22%;
-    height: 100vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -58,13 +58,13 @@ body {
 }
 
 .estado {
-    height: 10%;
+    height: 7%;
     width: 100%;
     display: flex;
     align-items:center;
     justify-content:space-between;
     border-bottom: 2px solid var(--platinum);
-    padding: 30px;
+    padding: 20px 30px;
 }
 .contacto_estado {
     display: flex;
@@ -102,7 +102,7 @@ body {
 
 
 .botones {
-    height: 20%;
+    height: 14%;
     width: 100%;
     display: flex;
     align-items:center;
@@ -114,7 +114,7 @@ body {
 .boton {
     background-color: var(--blue-bell);
     color: var(--white);
-    padding: 5% 10%;
+    padding: 5% 17%;
     border: none;
     font-size: 1rem;
     
